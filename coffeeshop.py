@@ -43,7 +43,12 @@ if act == 1 :
                  beans -= 20
                  money += 6
                  dis   -= 1
-             print(water,milk,beans,dis,money)
+             print("******************************************")
+             print("*"'             ',water,'               '"*")
+             print("*"'             ',milk,'                '"*")
+             print("*"'             ',beans,'               '"*")
+             print("*"'             ',dis,'                 '" *")
+             print("*"'             ',money,'                '"*")
 #fill
 if act == 2 :
              print("*****What kind are you fill?*****")
@@ -53,22 +58,27 @@ if act == 2 :
              if fit == 1 :
                 wet = int(input("How many ml of water do you want to add?:\n"))
                 water += wet 
-             print(water)
              if fit == 2 :
                 wet = int(input("How many ml of milk do you want to add?:\n"))
                 milk += wet 
-             print(milk)
              if fit == 3 :
                 wet = int(input("How many grams of coffee beans do you want to add?:\n"))
                 beans += wet 
-             print(beans)
              if fit == 4 :
                 wet = int(input("How many disposable cups of coffee do you want to add?:\n"))
-                dis += wet 
-             print(dis)
+                dis += wet
+             print("*",water,"*")
+             print("*",milk,"*")
+             print("*",beans,"*") 
+             print("*",dis,"*")
 if act == 3 :
             print("I gave you",money)
-   
+            print("*",water,'of water'"*")
+            print("*",milk,'of milk'"*")
+            print("*",beans,'of coffee beans'"*")
+            print("*",dis,'of disposable cups'"*")
+            print("*",money-money,'bath'"*")
+             
    
    
    
